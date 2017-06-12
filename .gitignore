@@ -33,3 +33,13 @@
 
 bin/
 info/
+ninja/
+build/
+
+main
+
+*.12
+
+*.out
+*.png
+*.eps
