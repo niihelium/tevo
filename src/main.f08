@@ -90,7 +90,7 @@ module equations
       implicit none
       real*8 :: tau
 
-      tau = ne*get_sigma_E(HI_MIN,ion_HII)*z_step/ (get_H(z)*(1+z))
+      tau = ne*get_sigma_E(HI_MIN,ion_HI)*z_step/ (get_H(z)*(1+z))
 
     end function get_Tau_HII
 
